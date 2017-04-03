@@ -1,26 +1,3 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-body{
-    overflow: hidden;
-    font-family: 'Raleway',sans-serif;
-    
-}
-
-.slider {
-	background-image: url(../images/main-bg.png);
-     height: 100vh;
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-}
-/*
-Fade content bs-carousel with hero headers
-Code snippet by maridlcrmn (Follow me on Twitter @maridlcrmn) for Bootsnipp.com
-Image credits: unsplash.com
-*/
-
 /********************************/
 /*       Fade Bs-carousel       */
 /********************************/
@@ -126,6 +103,27 @@ Image credits: unsplash.com
     box-shadow: 1px -1px 65px -2px rgba(56, 65, 161, 1);
     transition: .2 all ease-in;
 }
+/********************************/
+/*       Slides backgrounds     */
+/********************************/
+.fade-carousel .slides .slide-1,
+.fade-carousel .slides .slide-2,
+.fade-carousel .slides .slide-3 {
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.fade-carousel .slides .slide-1,
+.fade-carousel .slides .slide-2,
+.fade-carousel .slides .slide-3,
+.fade-carousel .slides .slide-4,
+.fade-carousel .slides .slide-5 {
+  background-image: url(../images/main-bg.png);
+}
+
+
+
 /*************************Navigation bar **************/
 .navbar-default {
 	background-color: transparent;
@@ -161,5 +159,5 @@ Image credits: unsplash.com
 
 
 
- 
+
 

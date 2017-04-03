@@ -37,5 +37,21 @@
     .navbar-brand>img {
 	margin-left: 0px;
 }
-    
+   .carousel-indicators {
+	top: 90%;
+} 
 }
+
+@media screen and (max-width: 270px) {
+    .sliderlink a{
+        padding: 10px;
+	
+}
+}
+@media screen and (max-width: 500px) {
+.carousel-indicators {
+	top: 90%;
+}
+}
+
+
