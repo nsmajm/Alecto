@@ -1,0 +1,41 @@
+/*Media Queries for Responsive*/
+
+@media screen and (min-width: 980px) {
+    .sliderContent {
+        width: 980px;
+    }
+}
+
+@media screen and (max-width: 766px) {
+    .sliderContent h1 {
+        font-size: 16px;
+    }
+    .navbar-default {
+        background-color: #011217;
+    }
+}
+@media screen and (max-width: 380px) {
+    .sliderContent h1 {
+        font-size: 15px;
+    }.sliderContent h3 {
+        font-size: 10px;
+    }
+    .navbar-default {
+        background-color: #011217;
+    }
+    .sliderlink {
+	padding-top: 15x;
+}
+.sliderlink a{
+    padding: 10px 20px;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 40px;
+    
+	
+}
+    .navbar-brand>img {
+	margin-left: 0px;
+}
+    
+}
