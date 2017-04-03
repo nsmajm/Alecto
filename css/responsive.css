@@ -13,6 +13,19 @@
     .navbar-default {
         background-color: #011217;
     }
+    .aboutUsLink a{
+        padding: 10px 20px;
+        margin-left: -15%;
+    }
+}
+@media screen and (max-width: 835px) {
+    .sliderContent h1 {
+        font-size: 16px;
+    }
+    
+      .navbar-brand>img {
+	margin-left: 10px;
+}
 }
 @media screen and (max-width: 380px) {
     .sliderContent h1 {
@@ -42,11 +55,15 @@
 } 
 }
 
-@media screen and (max-width: 270px) {
+@media screen and (max-width: 290px) {
     .sliderlink a{
         padding: 10px;
 	
 }
+    .aboutUsLink a{
+        padding: 10px 10px;
+        margin-left: -60%;
+    }
 }
 @media screen and (max-width: 500px) {
 .carousel-indicators {
