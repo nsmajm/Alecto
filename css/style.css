@@ -4,7 +4,9 @@ body {
 
 .slider {}
 
-
+#sectionPaddingbottom {
+	padding-bottom: 20px;
+}
 /*********************Carousel*******************/
 
 .carousel-indicators {
@@ -195,6 +197,12 @@ body {
     padding-top: 42px;
 }
 
+hr {
+    height: 1px;
+    background-color: #17daa3;
+    width: 25px;
+    margin: 0 auto;
+}
 .aboutUsText hr {
     height: 1px;
     background-color: #17daa3;
@@ -318,4 +326,27 @@ p {
 }
 span{
     color: #17daa3
+}
+/***************Our Service***********/
+.service {
+	background-color: #f9f9fa;
+}
+.ourserviceText h1 {
+	text-align: center;
+    padding-bottom: 20px;
+    color: #95a0a9;
+}
+.ourserviceText p {
+	text-align: center;
+    padding-bottom: 20px;
+    color: #95a0a9;
+}
+.workicon {
+    margin-top: 23px;
+    padding: 13px;
+    font-size: 20px;
+    color: #17daa3;
+    background-color: #fff;
+    border-radius: 20px;
+
 }
