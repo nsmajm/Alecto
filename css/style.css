@@ -1,39 +1,48 @@
-
-body{
+body {
     overflow-x: hidden;
-
 }
+
+.slider {}
 
 
 /*********************Carousel*******************/
+
 .carousel-indicators {
-	top: 70%;
+    top: 70%;
 }
+
 .fade-carousel {
     position: relative;
     height: 100vh;
 }
+
 .fade-carousel .carousel-inner .item {
     height: 100vh;
 }
+
 .fade-carousel .carousel-indicators > li {
     margin: 0 2px;
     background-color: #f39c12;
     border-color: #f39c12;
     opacity: .7;
 }
+
 .fade-carousel .carousel-indicators > li.active {
-  width: 10px;
-  height: 10px;
-  opacity: 1;
+    width: 10px;
+    height: 10px;
+    opacity: 1;
 }
+
 .fade-carousel .carousel-indicators > li {
     margin: 0 2px;
     background-color: #00291f;
-    border: 5px solid #f3f5f5;;
+    border: 5px solid #f3f5f5;
+    ;
 }
 
+
 /*********************slide Content Header*******************/
+
 .sliderContent {
     position: absolute;
     top: 50%;
@@ -42,16 +51,17 @@ body{
     color: #fff;
     text-align: center;
     text-transform: uppercase;
-    text-shadow: 1px 1px 0 rgba(0,0,0,.75);
-      -webkit-transform: translate3d(-50%,-50%,0);
-         -moz-transform: translate3d(-50%,-50%,0);
-          -ms-transform: translate3d(-50%,-50%,0);
-           -o-transform: translate3d(-50%,-50%,0);
-              transform: translate3d(-50%,-50%,0);
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, .75);
+    -webkit-transform: translate3d(-50%, -50%, 0);
+    -moz-transform: translate3d(-50%, -50%, 0);
+    -ms-transform: translate3d(-50%, -50%, 0);
+    -o-transform: translate3d(-50%, -50%, 0);
+    transform: translate3d(-50%, -50%, 0);
 }
+
 .sliderContent h1 {
-    font-size: 40px;    
-    font-weight:500;
+    font-size: 40px;
+    font-weight: 500;
     margin: 0;
     padding: 0;
 }
@@ -59,21 +69,24 @@ body{
 .fade-carousel .carousel-inner .item .sliderContent {
     opacity: 0;
     -webkit-transition: 2s all ease-in-out .1s;
-       -moz-transition: 2s all ease-in-out .1s; 
-        -ms-transition: 2s all ease-in-out .1s; 
-         -o-transition: 2s all ease-in-out .1s; 
-            transition: 2s all ease-in-out .1s; 
+    -moz-transition: 2s all ease-in-out .1s;
+    -ms-transition: 2s all ease-in-out .1s;
+    -o-transition: 2s all ease-in-out .1s;
+    transition: 2s all ease-in-out .1s;
 }
+
 .fade-carousel .carousel-inner .item.active .sliderContent {
     opacity: 1;
     -webkit-transition: 2s all ease-in-out .1s;
-       -moz-transition: 2s all ease-in-out .1s; 
-        -ms-transition: 2s all ease-in-out .1s; 
-         -o-transition: 2s all ease-in-out .1s; 
-            transition: 2s all ease-in-out .1s;    
+    -moz-transition: 2s all ease-in-out .1s;
+    -ms-transition: 2s all ease-in-out .1s;
+    -o-transition: 2s all ease-in-out .1s;
+    transition: 2s all ease-in-out .1s;
 }
 
+
 /*********************OverLay *******************/
+
 .overlay {
     position: absolute;
     width: 100%;
@@ -85,17 +98,17 @@ body{
 
 
 /* Link Style slider */
+
 .sliderlink {
-	padding-top: 20px;
+    padding-top: 20px;
 }
-.sliderlink a{
+
+.sliderlink a {
     padding: 10px 30px;
     border: 2px solid #fff;
     color: #fff;
     border-radius: 40px;
     text-decoration: none;
-    
-	
 }
 
 .sliderlink a:hover {
@@ -104,37 +117,44 @@ body{
     box-shadow: 1px -1px 65px -2px rgba(56, 65, 161, 1);
     transition: .2 all ease-in;
 }
+
+
 /*********************Carousel Background*******************/
+
 .fade-carousel .slides .slide-1,
 .fade-carousel .slides .slide-2,
 .fade-carousel .slides .slide-3 {
-  height: 100vh;
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
+
 .fade-carousel .slides .slide-1,
 .fade-carousel .slides .slide-2,
 .fade-carousel .slides .slide-3,
 .fade-carousel .slides .slide-4,
 .fade-carousel .slides .slide-5 {
-  background-image: url(../images/main-bg.png);
+    background-image: url(../images/main-bg.png);
     background-attachment: fixed;
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
-
 
 
 /*************************Navigation bar **************/
+
 .navbar-default {
-	background-color: transparent;
+    background-color: transparent;
     border: none;
-  
 }
+
 .navbar-default .navbar-nav>li>a {
     color: #fff;
     list-style: none;
     padding-right: 30px;
-      
 }
 
 .navbar-default .navbar-nav>li>a:hover {
@@ -144,48 +164,55 @@ body{
 }
 
 .navbar-nav {
-	padding-right: 100px;
+    padding-right: 100px;
 }
+
 .navbar-brand>img {
-	margin-left: 100px;
+    margin-left: 100px;
 }
+
+
 /*************************************About Us**************************************/
+
 .aboutUs {
-	padding-top: 50px;
+    padding-top: 50px;
     padding-bottom: 50px;
 }
+
 .aboutUsText {
-	text-align: center;
+    text-align: center;
 }
-.aboutUsText h1{
-	font-family: 'Railway',sans-serif;
+
+.aboutUsText h1 {
+    font-family: 'Railway', sans-serif;
     color: #abb2b8;
     padding-bottom: 32px;
-}.aboutUsText p{
-	font-family: 'Railway',sans-serif;
+}
+
+.aboutUsText p {
+    font-family: 'Railway', sans-serif;
     color: #abb2b8;
     padding-top: 42px;
 }
+
 .aboutUsText hr {
-    
     height: 1px;
     background-color: #17daa3;
     width: 25px;
     margin: 0 auto;
 }
-.aboutUsContent{
-    margin-top: 50px;
-    
 
+.aboutUsContent {
+    margin-top: 50px;
 }
+
 .aboutallcontent {
-   
     padding: 20%;
-	
 }
-.aboutallcontent h3,p{
+
+.aboutallcontent h3,
+p {
     text-align: center;
-	
 }
 
 .iconeffect {
@@ -193,34 +220,102 @@ body{
     margin-left: 30%;
     padding: 20%;
     background-color: #edeff1;
-    color: :#87949e;
+    color: : #87949e;
     border-radius: 56%;
 }
+
 .aboutallcontent:hover {
-	background-color: #edeff1
-        webkit-box-shadow: 1px 3px 56px 8px rgba(230,238,247,0.72);
-        -moz-box-shadow: 1px 3px 56px 8px rgba(230,238,247,0.72);
-        box-shadow: 1px 3px 56px 8px rgba(230,238,247,0.72);
-        transition: .4s all ease-out;
+    background-color: #edeff1 webkit-box-shadow: 1px 3px 56px 8px rgba(230, 238, 247, 0.72);
+    -moz-box-shadow: 1px 3px 56px 8px rgba(230, 238, 247, 0.72);
+    box-shadow: 1px 3px 56px 8px rgba(230, 238, 247, 0.72);
+    transition: .4s all ease-out;
 }
+
 .aboutallcontent:hover .iconeffect {
-	background-color: #17daa3;  
+    background-color: #17daa3;
 }
+
 .aboutLink {
-	padding-top: 4%;
-     padding-left: 50%;
+    padding-top: 4%;
+    padding-left: 43%;
 }
-.aboutUsLink a{
+
+.aboutUsLink a {
     padding: 10px 30px;
     border: 2px solid #fff;
     color: #fff;
     background-color: #17daa3;
     border-radius: 40px;
     text-decoration: none;
-	
+}
+
+.aboutUsLink a:hover {
+    -webkit-box-shadow: 1px 3px 56px 8px rgba(3, 230, 101, 1);
+    -moz-box-shadow: 1px 3px 56px 8px rgba(3, 230, 101, 1);
+    box-shadow: 1px 3px 56px 8px rgba(3, 230, 101, 1);
+    transition: .3s all ease-in;
 }
 
 
+/*****************second area item****************/
+.areaContentTwo{
+    background: #f9f9fa;
+}
+.rightarea h2,p{
+	color: #576671;
+    text-align: left;
+    line-height: 30px;
+     padding-top: 30px;
+    padding-bottom: 20px;
+}
 
+.areaContentTwo{
+    margin-top: 5%;;
+}
+.secondarealink {
+	    padding: 10px 30px;
+    border: 2px solid #fff;
+    color: #fff;
+    background-color: #17daa3;
+    border-radius: 40px;
+    text-decoration: none; 
+    
+}
 
+.secondarealink:hover {
+    -webkit-box-shadow: 1px -1px 65px -2px rgba(56, 65, 161, 1);
+    -moz-box-shadow: 1px -1px 65px -2px rgba(56, 65, 161, 1);
+    box-shadow: 1px -1px 65px -2px rgba(56, 65, 161, 1);
+    transition: .2 all ease-in;
+}
+.areafix {
+	padding-bottom: 50px;
+}
 
+/****************************Testimonial*************************/
+.carousel-item{
+	padding-bottom: 100px;
+}
+.carousel-item h3{
+    
+	
+}
+
+.carousel-item p{
+    padding-left: 33%;
+    color: #555555;
+    font-size: 20px;
+    font-family: 'Railway',sans-serif;
+    font-weight: 300;
+	
+}
+.customindicator {
+	top: 90%;
+}
+.caroselprev,.carouselnext {
+	color: #ababab;
+    
+}
+span{
+    color: #17daa3
+}
