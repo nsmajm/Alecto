@@ -350,3 +350,35 @@ span{
     border-radius: 20px;
 
 }
+/****************Our price****************/
+
+.ourprice {
+	background-color: #f9f9fa;
+    
+}
+.priceText h1{
+	text-align: center;
+}
+.priceText p{
+	text-align: center;
+}
+.itemPrice {
+	background-color: #fff;
+    background-color: #edeff1 webkit-box-shadow: 1px 3px 56px 8px rgba(230, 238, 247, 0.72);
+    -moz-box-shadow: 1px 3px 56px 8px rgba(230, 238, 247, 0.72);
+    box-shadow: 1px 3px 56px 8px rgba(230, 238, 247, 0.72);
+    
+}
+.priceofProduct h3,p,h3 {
+	padding: 15px;
+}
+.priceofProduct hr{
+	width: 100%;
+    background-color: #eeeff1;
+}
+.btn-primary {
+	width: 100%;
+    background-color: #19daa4;
+    text-align: left;
+    border: 
+}
