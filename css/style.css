@@ -1,7 +1,13 @@
 body {
     overflow-x: hidden;
 }
-
+.pace-running .Main{
+    opacity: 0;
+}
+.pace-done .Main{
+    opacity: 1;
+    transition: all 2s ease-in;
+}
 .slider {}
 
 #sectionPaddingbottom {
@@ -178,7 +184,7 @@ body {
 
 .aboutUs {
     padding-top: 50px;
-    padding-bottom: 50px;
+    
 }
 
 .aboutUsText {
@@ -195,6 +201,7 @@ body {
     font-family: 'Railway', sans-serif;
     color: #abb2b8;
     padding-top: 42px;
+    text-align: center;
 }
 
 hr {
