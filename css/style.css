@@ -142,7 +142,7 @@ body {
 .fade-carousel .slides .slide-2,
 .fade-carousel .slides .slide-3,
 .fade-carousel .slides .slide-4,
-.fade-carousel .slides .slide-5 {
+.fade-carousel .slides .slide-5{
     background-image: url(../images/main-bg.png);
     background-attachment: fixed;
     height: 100vh;
