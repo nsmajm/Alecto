@@ -308,7 +308,9 @@ p {
     
 	
 }
-
+.test {
+    background-attachment: fixed;
+}
 .carousel-item p{
     padding-left: 33%;
     color: #555555;
@@ -358,9 +360,13 @@ span{
 }
 .priceText h1{
 	text-align: center;
+    
 }
 .priceText p{
 	text-align: center;
+}
+.priceofProduct h3{
+	color: #17daa3;
 }
 .itemPrice {
 	background-color: #fff;
@@ -380,5 +386,12 @@ span{
 	width: 100%;
     background-color: #19daa4;
     text-align: left;
-    border: 
+    border: none;
+
 }
+.btn-primary:hover{
+	background-color: #19daa4;
+    border: none;
+}
+
+
